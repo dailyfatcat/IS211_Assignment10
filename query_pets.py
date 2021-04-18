@@ -29,7 +29,7 @@ def main(args):
                     else:
                             #Else print as if the animal is alive
                         print(f"{r[2]} {r[3]} owns {r[6]}, a {r[7]}, that is {r[5]} years old")
-            except ValueError:
+            except:
                 print('Error There is no Person with that ID')
 
             #Read in the users choice
